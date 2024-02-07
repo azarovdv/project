@@ -17,7 +17,6 @@ export default function PricePage() {
     fontSize: '24px',
   };
   //   const styleTitle = {};
-  //   const styleTitle = {};
 
   return (
     <div style={styleContainer}>
