@@ -6,6 +6,7 @@ import 'dotenv/config';
 import jsxRender from './utils/jsxRender';
 
 // тут импорт роутингов
+import animalsRouter from './routes/render/animalsRouter';
 
 import resLocals from './middlewares/resLocals';
 
@@ -24,5 +25,6 @@ app.use(cookieParser());
 app.use(resLocals);
 
 // здесь роутинг
+app.use('/animals', animalsRouter);
 
 app.listen(PORT, () => console.log(`Все ОК ${PORT}`));
