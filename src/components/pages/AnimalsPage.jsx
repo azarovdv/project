@@ -6,8 +6,8 @@ export default function AnimalsPage({ animalsArr }) {
 
   const wrapperStyle = {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', // Грид с автоматическим количеством столбцов и минимальной шириной 280px
-    gap: '20px', // Отступ между карточками
+    gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
+    gap: '8px',
     justifyContent: 'center',
   };
 
@@ -19,9 +19,10 @@ export default function AnimalsPage({ animalsArr }) {
           color: 'red',
           backgroundColor: 'black',
           textAlign: 'center',
+          height: '50px',
         }}
       >
-        Cтраничка с карточками животных
+        INPUTS FOR SEARCH
       </h1>
 
       <div>
