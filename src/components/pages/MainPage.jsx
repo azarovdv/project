@@ -5,7 +5,7 @@ export default function MainPage({ greeting, photo }) {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    marginTop: '20px',
+    marginTop: '15px',
   };
   const imageStyle = {
     width: '700px',
