@@ -14,55 +14,58 @@ export default function AnimalCard({ oneAnimal }) {
   };
   const imgStyle = {
     paddingTop: '10px',
-    width: '150px',
-    minHeight: '150px',
-    borderRadius: '13px',
+    width: '190px',
+    height: '190px',
+    borderRadius: '50%',
     objectFit: 'cover',
   };
   const buttonUpdate = {
-    width: '115px',
+    width: '100px',
     minHeight: '15px',
     border: '1px solid black',
     borderRadius: '7px',
     color: 'white',
-    fontSize: '12px',
+    fontSize: '10px',
     background: 'linear-gradient(to bottom, #1316a0, #1c34ba)',
   };
   const buttonDelete = {
-    width: '115px',
-    minHeight: '15px',
+    width: '100px',
+    minHeight: '12px',
     border: '1px solid black',
     borderRadius: '7px',
     color: 'white',
-    fontSize: '13px',
+    fontSize: '11px',
     background: 'linear-gradient(to bottom, #441b1b, #922626)',
   };
   const buttonContainer = {
     width: '100%',
     marginTop: '5px',
-    minHeight: '15px',
+    minHeight: '12px',
     display: 'flex',
     justifyContent: 'space-between',
     position: 'absolute',
-    padding: '0 10px',
+    padding: '0 5px',
+    bottom: '0',
   };
   const titleStyle = {
     color: 'white',
-    fontSize: '33px',
+    fontSize: '22px',
     fontWeight: 'bold',
     textAlign: 'center',
-    padding: '8px 5px',
+    padding: '5px',
     margin: '0',
   };
   const bodyStyle = {
     color: 'white',
     fontSize: '14px',
-    padding: '8px 5px',
+    padding: '8px 5px 23px',
     margin: '0',
     background: 'rgba(0, 0, 0, 0.7)',
+    width: '300px',
+    height: '190px',
+    borderRadius: '13px',
   };
 
-  
   return (
     <div style={{ margin: '0 auto' }}>
       <div style={cardStyle}>
@@ -70,7 +73,7 @@ export default function AnimalCard({ oneAnimal }) {
           <button style={buttonUpdate}>редактировать</button>
           <button style={buttonDelete}>удалить</button>
         </div>{' '}
-        <img style={imgStyle} src={oneAnimal.img} alt="oneAnimal.img" />
+        <img style={imgStyle} src={oneAnimal.Photos.map((el) => el.path)} alt="oneAnimal.img" />
         <h3 style={titleStyle}>{oneAnimal.name}</h3>
         <p style={bodyStyle}>{oneAnimal.body}</p>
       </div>
