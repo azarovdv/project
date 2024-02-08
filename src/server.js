@@ -4,8 +4,13 @@ import path from 'path';
 import cookieParser from 'cookie-parser';
 import 'dotenv/config';
 import jsxRender from './utils/jsxRender';
+import mainPageRout from './routes/render/mainPageRout';
+import adminRouter from './routes/render/adminRouter';
+import apiAuthRouter from './routes/api/apiAuthRouter';
+import apiEditRout from './routes/api/apiEditRout';
 
 // тут импорт роутингов
+import animalsRouter from './routes/render/animalsRouter';
 
 import resLocals from './middlewares/resLocals';
 
@@ -24,5 +29,11 @@ app.use(cookieParser());
 app.use(resLocals);
 
 // здесь роутинг
+
+app.use('/', mainPageRout);
+app.use('/admin', adminRouter);
+app.use('/api', apiAuthRouter);
+app.use('/animals', animalsRouter);
+app.use('/api/edit', apiEditRout);
 
 app.listen(PORT, () => console.log(`Все ОК ${PORT}`));
