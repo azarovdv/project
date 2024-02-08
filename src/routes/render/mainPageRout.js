@@ -6,6 +6,7 @@ rout.get('/', async (req, res) => {
   res.render('MainPage');
 });
 
+
 export default rout;
 
 
