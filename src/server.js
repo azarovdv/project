@@ -4,6 +4,8 @@ import path from 'path';
 import cookieParser from 'cookie-parser';
 import 'dotenv/config';
 import jsxRender from './utils/jsxRender';
+import mainPageRout from './routes/render/mainPageRout';
+import adminRouter from './routes/render/adminRouter';
 
 // тут импорт роутингов
 import animalsRouter from './routes/render/animalsRouter';
@@ -25,6 +27,9 @@ app.use(cookieParser());
 app.use(resLocals);
 
 // здесь роутинг
+
+app.use('/', mainPageRout);
+app.use('/admin', adminRouter);
 app.use('/animals', animalsRouter);
 
 app.listen(PORT, () => console.log(`Все ОК ${PORT}`));

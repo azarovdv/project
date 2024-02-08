@@ -19,6 +19,20 @@ export default function Layout({ children, initState }) {
         <title>Zoo</title>
       </head>
       <body>
+        <div
+          id="background"
+          style={{
+            backgroundImage: 'url("https://w.forfun.com/fetch/66/66fdff9038e8cb9be322a50588e13b84.jpeg")',
+            backgroundSize: 'cover', // Покрыть весь экран, сохраняя пропорции изображения
+            position: 'fixed', // Фиксированное позиционирование, чтобы изображение оставалось на месте при прокрутке
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            opacity: 0.6,
+            zIndex: -1,
+          }}
+        />
         <div id="root">{children}</div>
       </body>
     </html>
