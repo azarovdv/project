@@ -1,13 +1,20 @@
 import React from 'react';
+import axios from 'axios';
 
 export default function AdminPage() {
-  // const submitHandler = async (e) => {
-  //   e.preventDefault();
-  //   const response = await axios;
-  // };
+  const submitHandler = async (e) => {
+    e.preventDefault();
+    console.log(e.target);
+    const formData = Object.fromEntries(new FormData(e.target));
+    const response = await axios.post('/api/auth', formData);
+    if (response.status === 200) {
+      console.log(response.data);
+      window.location.href = '/admin/edit';
+    }
+  };
 
   return (
-    <form>
+    <form onSubmit={submitHandler}>
       <div className="mb-3">
         <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
         <input name="email" type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />

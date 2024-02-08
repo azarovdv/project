@@ -6,6 +6,7 @@ import 'dotenv/config';
 import jsxRender from './utils/jsxRender';
 import mainPageRout from './routes/render/mainPageRout';
 import adminRouter from './routes/render/adminRouter';
+import apiAuthRouter from './routes/api/apiAuthRouter';
 
 // тут импорт роутингов
 
@@ -28,5 +29,6 @@ app.use(resLocals);
 // здесь роутинг
 app.use('/', mainPageRout);
 app.use('/admin', adminRouter);
+app.use('/api', apiAuthRouter);
 
 app.listen(PORT, () => console.log(`Все ОК ${PORT}`));
