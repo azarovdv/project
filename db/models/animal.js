@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate({ Type, Photo }) {
       this.belongsTo(Type, { foreignKey: 'typeId' });
-      this.belongsToMany(Photo, { through: 'PhotoAnimal' });
+      this.belongsToMany(Photo, { through: 'PhotoAnimal', foreignKey: 'animalId' });
     }
   }
   Animal.init({
