@@ -20,46 +20,50 @@ export default function AnimalCard({ oneAnimal }) {
     objectFit: 'cover',
   };
   const buttonUpdate = {
-    width: '115px',
+    width: '100px',
     minHeight: '15px',
     border: '1px solid black',
     borderRadius: '7px',
     color: 'white',
-    fontSize: '12px',
+    fontSize: '10px',
     background: 'linear-gradient(to bottom, #1316a0, #1c34ba)',
   };
   const buttonDelete = {
-    width: '115px',
-    minHeight: '15px',
+    width: '100px',
+    minHeight: '12px',
     border: '1px solid black',
     borderRadius: '7px',
     color: 'white',
-    fontSize: '13px',
+    fontSize: '11px',
     background: 'linear-gradient(to bottom, #441b1b, #922626)',
   };
   const buttonContainer = {
     width: '100%',
     marginTop: '5px',
-    minHeight: '15px',
+    minHeight: '12px',
     display: 'flex',
     justifyContent: 'space-between',
     position: 'absolute',
-    padding: '0 10px',
+    padding: '0 5px',
+    bottom: '0',
   };
   const titleStyle = {
     color: 'white',
-    fontSize: '33px',
+    fontSize: '22px',
     fontWeight: 'bold',
     textAlign: 'center',
-    padding: '8px 5px',
+    padding: '5px',
     margin: '0',
   };
   const bodyStyle = {
     color: 'white',
     fontSize: '14px',
-    padding: '8px 5px',
+    padding: '8px 5px 23px',
     margin: '0',
     background: 'rgba(0, 0, 0, 0.7)',
+    width: '300px',
+    height: '190px',
+    borderRadius: '13px',
   };
 
   

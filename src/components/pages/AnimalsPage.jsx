@@ -2,8 +2,8 @@ import React from 'react';
 import AnimalCard from '../ui/AnimalCard';
 import InputSearch from '../ui/InputSearch';
 
-export default function AnimalsPage({ animalsArr }) {
-  console.log(animalsArr);
+export default function AnimalsPage({ animals }) {
+  console.log(animals);
 
   const wrapperStyle = {
     display: 'grid',
@@ -17,7 +17,7 @@ export default function AnimalsPage({ animalsArr }) {
       <InputSearch />
 
       <div style={wrapperStyle}>
-        {animalsArr.map((animal) => (
+        {animals.map((animal) => (
           <AnimalCard oneAnimal={animal} />
         ))}
       </div>
