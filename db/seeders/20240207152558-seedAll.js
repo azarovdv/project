@@ -36,58 +36,58 @@ module.exports = {
     }], {});
 
     await queryInterface.bulkInsert('Photos', [{
-      path: '/photo/лев_1',
+      path: '/photo/лев_1.jpg',
     },
     {
-      path: '/photo/лев_2',
+      path: '/photo/лев_2.jpg',
     },
     {
-      path: '/photo/лев_3',
+      path: '/photo/лев_3.jpg',
     },
     {
-      path: '/photo/слон_1',
+      path: '/photo/слон_1.jpg',
     },
     {
-      path: '/photo/слон_2',
+      path: '/photo/слон_2.jpg',
     },
     {
-      path: '/photo/слон_3',
+      path: '/photo/слон_3.jpg',
     },
     {
-      path: '/photo/орел_1',
+      path: '/photo/орел_1.jpg',
     },
     {
-      path: '/photo/орел_2',
+      path: '/photo/орел_2.jpg',
     },
     {
-      path: '/photo/орел_3',
+      path: '/photo/орел_3.jpg',
     },
     {
-      path: '/photo/курица_1',
+      path: '/photo/курица_1.jpg',
     },
     {
-      path: '/photo/курица_2',
+      path: '/photo/курица_2.jpg',
     },
     {
-      path: '/photo/курица_3',
+      path: '/photo/курица_3.png',
     },
     {
-      path: '/photo/красноухаяЧерепаха_1',
+      path: '/photo/красноухаяЧерепаха_1.png',
     },
     {
-      path: '/photo/красноухаяЧерепаха_2',
+      path: '/photo/красноухаяЧерепаха_2.jpg',
     },
     {
-      path: '/photo/красноухаяЧерепаха_3',
+      path: '/photo/красноухаяЧерепаха_3.jpg',
     },
     {
-      path: '/photo/геккон_1',
+      path: '/photo/геккон_1.webp',
     },
     {
-      path: '/photo/геккон_2',
+      path: '/photo/геккон_2.webp',
     },
     {
-      path: '/photo/геккон_3',
+      path: '/photo/геккон_3.jpg',
     }], {});
 
     await queryInterface.bulkInsert('Animals', [{
