@@ -1,6 +1,4 @@
-const {
-  Model,
-} = require('sequelize');
+const { Model } = require('sequelize');
 
 module.exports = (sequelize, DataTypes) => {
   class Animal extends Model {
@@ -14,13 +12,16 @@ module.exports = (sequelize, DataTypes) => {
       this.belongsToMany(Photo, { through: 'PhotoAnimal' });
     }
   }
-  Animal.init({
-    name: DataTypes.STRING,
-    body: DataTypes.TEXT,
-    typeId: DataTypes.INTEGER,
-  }, {
-    sequelize,
-    modelName: 'Animal',
-  });
+  Animal.init(
+    {
+      name: DataTypes.STRING,
+      body: DataTypes.TEXT,
+      typeId: DataTypes.INTEGER,
+    },
+    {
+      sequelize,
+      modelName: 'Animal',
+    },
+  );
   return Animal;
 };
