@@ -53,9 +53,9 @@ module.exports = {
         {
           path: '/photo/лев_1.jpg',
         },
-        // {
-        //   path: '/photo/лев_2.jpg',
-        // },
+        {
+          path: '/photo/лев_2.jpg',
+        },
         // {
         //   path: '/photo/лев_3.jpg',
         // },
@@ -151,17 +151,17 @@ module.exports = {
           animalId: '1',
           photoId: '1',
         },
-        // {
-        //   animalId: '1',
-        //   photoId: '2',
-        // },
+        {
+          animalId: '1',
+          photoId: '2',
+        },
         // {
         //   animalId: '1',
         //   photoId: '3',
         // },
         {
           animalId: '2',
-          photoId: '2',
+          photoId: '3',
         },
         // {
         //   animalId: '2',
@@ -173,7 +173,7 @@ module.exports = {
         // },
         {
           animalId: '3',
-          photoId: '3',
+          photoId: '4',
         },
         // {
         //   animalId: '3',
@@ -185,7 +185,7 @@ module.exports = {
         // },
         {
           animalId: '4',
-          photoId: '4',
+          photoId: '5',
         },
         // {
         //   animalId: '4',
@@ -197,7 +197,7 @@ module.exports = {
         // },
         {
           animalId: '5',
-          photoId: '5',
+          photoId: '6',
         },
         // {
         //   animalId: '5',
@@ -209,7 +209,7 @@ module.exports = {
         // },
         {
           animalId: '6',
-          photoId: '6',
+          photoId: '7',
         },
         // {
         //   animalId: '6',
