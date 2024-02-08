@@ -20,3 +20,5 @@ rout.put('/card/:id', async (req, res) => {
   await currentCard.save();
   res.sendStatus(200);
 });
+
+export default rout;
