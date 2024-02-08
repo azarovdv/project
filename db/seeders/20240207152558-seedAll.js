@@ -200,7 +200,7 @@ module.exports = {
     }], {});
 
     await queryInterface.bulkInsert('MPPhotos', [{
-      path: '/photo/Приветствие',
+      path: '/photo/Приветствие.jpeg',
     }], {});
 
     await queryInterface.bulkInsert('PriceDays', [{
