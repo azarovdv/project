@@ -61,6 +61,8 @@ export default function AnimalCard({ oneAnimal }) {
     margin: '0',
     background: 'rgba(0, 0, 0, 0.7)',
   };
+
+  
   return (
     <div style={{ margin: '0 auto' }}>
       <div style={cardStyle}>

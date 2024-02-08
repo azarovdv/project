@@ -1,5 +1,6 @@
 import React from 'react';
 import AnimalCard from '../ui/AnimalCard';
+import InputSearch from '../ui/InputSearch';
 
 export default function AnimalsPage({ animalsArr }) {
   console.log(animalsArr);
@@ -12,26 +13,14 @@ export default function AnimalsPage({ animalsArr }) {
   };
 
   return (
-    <>
-      <h1
-        style={{
-          fontSize: '22px',
-          color: 'red',
-          backgroundColor: 'black',
-          textAlign: 'center',
-          height: '50px',
-        }}
-      >
-        INPUTS FOR SEARCH
-      </h1>
+    <div>
+      <InputSearch />
 
-      <div>
-        <div style={wrapperStyle}>
-          {animalsArr.map((animal) => (
-            <AnimalCard oneAnimal={animal} />
-          ))}
-        </div>
+      <div style={wrapperStyle}>
+        {animalsArr.map((animal) => (
+          <AnimalCard oneAnimal={animal} />
+        ))}
       </div>
-    </>
+    </div>
   );
 }
