@@ -1,5 +1,6 @@
 import React from 'react';
 import AnimalCard from '../ui/AnimalCard';
+import InputSearch from '../ui/InputSearch';
 
 export default function AnimalsPage({ animals }) {
   console.log(animals);
@@ -13,6 +14,8 @@ export default function AnimalsPage({ animals }) {
 
   return (
     <div>
+      <InputSearch />
+
       <div style={wrapperStyle}>
         {animals.map((animal) => (
           <AnimalCard oneAnimal={animal} />

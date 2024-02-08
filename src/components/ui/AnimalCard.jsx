@@ -65,6 +65,8 @@ export default function AnimalCard({ oneAnimal }) {
     height: '190px',
     borderRadius: '13px',
   };
+
+  
   return (
     <div style={{ margin: '0 auto' }}>
       <div style={cardStyle}>

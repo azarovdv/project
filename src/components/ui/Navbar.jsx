@@ -13,10 +13,13 @@ export default function Navbar() {
       </style>
       <nav className="navbar navbar-expand-lg bg-success">
         <div className="container-fluid">
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon" />
+          </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <a className="nav-link" style={{ marginLeft: '100px' }} aria-current="page" href="/">Home</a>
+                <a className="nav-link" aria-current="page" href="/">Home</a>
               </li>
             </ul>
             <ul className="navbar-nav mx-auto">
@@ -26,7 +29,7 @@ export default function Navbar() {
             </ul>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link" style={{ marginRight: '100px' }} href="/price">Pricing</a>
+                <a className="nav-link" href="/price">Pricing</a>
               </li>
             </ul>
           </div>
