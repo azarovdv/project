@@ -8,6 +8,7 @@ import mainPageRout from './routes/render/mainPageRout';
 import adminRouter from './routes/render/adminRouter';
 
 // тут импорт роутингов
+import animalsRouter from './routes/render/animalsRouter';
 
 import resLocals from './middlewares/resLocals';
 
@@ -26,7 +27,9 @@ app.use(cookieParser());
 app.use(resLocals);
 
 // здесь роутинг
+
 app.use('/', mainPageRout);
 app.use('/admin', adminRouter);
+app.use('/animals', animalsRouter);
 
 app.listen(PORT, () => console.log(`Все ОК ${PORT}`));
