@@ -8,47 +8,13 @@ animalsRouter.get('/', (req, res) => {
     {
       name: 'tigr1111111',
       body: 'werwerqe  fbesrgwergewr',
-      img: 'PHOTO ANIMAL',
+      img: 'https://images.rugvista.net/image/desk_pdp_zoom/602336.jpg',
     },
-    {
-      name: 'tigr222222',
-      body: 'werwerqe  fbesrgwergewr',
-      img: 'PHOTO ANIMAL',
-    },
+
     {
       name: 'tigr3333333',
       body: 'werwerqe  fbesrgwergewr',
-      img: 'PHOTO ANIMAL',
-    },
-    {
-      name: 'tigr3333333',
-      body: 'werwerqe  fbesrgwergewr',
-      img: 'PHOTO ANIMAL',
-    },
-    {
-      name: 'tigr3333333',
-      body: 'werwerqe  fbesrgwergewr',
-      img: 'PHOTO ANIMAL',
-    },
-    {
-      name: 'tigr3333333',
-      body: 'werwerqe  fbesrgwergewr',
-      img: 'PHOTO ANIMAL',
-    },
-    {
-      name: 'tigr3333333',
-      body: 'werwerqe  fbesrgwergewr',
-      img: 'PHOTO ANIMAL',
-    },
-    {
-      name: 'tigr3333333',
-      body: 'werwerqe  fbesrgwergewr',
-      img: 'PHOTO ANIMAL',
-    },
-    {
-      name: 'tigr3333333',
-      body: 'werwerqe  fbesrgwergewr',
-      img: 'PHOTO ANIMAL',
+      img: 'https://images.rugvista.net/image/desk_pdp_zoom/602337.jpg',
     },
   ];
   res.render('AnimalsPage', { animalsArr });
