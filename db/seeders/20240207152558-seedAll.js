@@ -233,15 +233,9 @@ module.exports = {
       {},
     );
 
-    await queryInterface.bulkInsert(
-      'MPPhotos',
-      [
-        {
-          path: '/photo/Приветствие',
-        },
-      ],
-      {},
-    );
+    await queryInterface.bulkInsert('MPPhotos', [{
+      path: '/photo/Приветствие.jpeg',
+    }], {});
 
     await queryInterface.bulkInsert(
       'PriceDays',
