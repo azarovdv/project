@@ -14,9 +14,9 @@ export default function AnimalCard({ oneAnimal }) {
   };
   const imgStyle = {
     paddingTop: '10px',
-    width: '150px',
-    minHeight: '150px',
-    borderRadius: '13px',
+    width: '190px',
+    height: '190px',
+    borderRadius: '50%',
     objectFit: 'cover',
   };
   const buttonUpdate = {
@@ -66,7 +66,6 @@ export default function AnimalCard({ oneAnimal }) {
     borderRadius: '13px',
   };
 
-  
   return (
     <div style={{ margin: '0 auto' }}>
       <div style={cardStyle}>
@@ -74,7 +73,7 @@ export default function AnimalCard({ oneAnimal }) {
           <button style={buttonUpdate}>редактировать</button>
           <button style={buttonDelete}>удалить</button>
         </div>{' '}
-        <img style={imgStyle} src={oneAnimal.img} alt="oneAnimal.img" />
+        <img style={imgStyle} src={oneAnimal.Photos.map((el) => el.path)} alt="oneAnimal.img" />
         <h3 style={titleStyle}>{oneAnimal.name}</h3>
         <p style={bodyStyle}>{oneAnimal.body}</p>
       </div>
