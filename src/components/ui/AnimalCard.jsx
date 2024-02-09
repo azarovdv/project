@@ -63,7 +63,6 @@ export default function AnimalCard({ oneAnimal }) {
     borderBottomLeftRadius: '13px',
     borderBottomRightRadius: '13px',
   };
-
   return (
     <div style={cardStyle}>
       <div style={buttonContainer}>

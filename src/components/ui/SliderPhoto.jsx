@@ -19,7 +19,7 @@ function SliderPhoto({ oneAnimal }) {
   return (
     <div style={styleSliderContainer}>
       <Carousel interval={null}>
-        {oneAnimal.Photos.map((photo, index) => (
+        {oneAnimal?.Photos?.map((photo, index) => (
           <Carousel.Item key={index}>
             <img style={imgStyle} src={photo.path} alt={`Animal ${index + 1}`} />
           </Carousel.Item>
