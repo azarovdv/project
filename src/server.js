@@ -11,6 +11,7 @@ import apiEditRout from './routes/api/apiEditRout';
 
 // тут импорт роутингов
 import animalsRouter from './routes/render/animalsRouter';
+import pricePageRouter from './routes/render/pricePageRouter';
 
 import resLocals from './middlewares/resLocals';
 
@@ -35,5 +36,6 @@ app.use('/admin', adminRouter);
 app.use('/api', apiAuthRouter);
 app.use('/animals', animalsRouter);
 app.use('/api/edit', apiEditRout);
+app.use('/prices', pricePageRouter);
 
 app.listen(PORT, () => console.log(`Все ОК ${PORT}`));
