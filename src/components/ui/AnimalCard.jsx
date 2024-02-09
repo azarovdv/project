@@ -84,3 +84,12 @@ export default function AnimalCard({ oneAnimal, user }) {
     </div>
   );
 }
+
+{ /* <div style={{ margin: '0 auto' }}>
+      <div style={cardStyle}>
+        <div style={buttonContainer}>
+          <button style={buttonUpdate}>редактировать</button>
+          <button style={buttonDelete}>удалить</button>
+        </div>
+        {' '}
+        <img style={imgStyle} src={oneAnimal.Photos.map((el) => el.path)} alt="" /> */ }

@@ -7,7 +7,6 @@ export default function AdminPage() {
     const formData = Object.fromEntries(new FormData(e.target));
     const response = await axios.post('/api/auth', formData);
     if (response.status === 200) {
-      console.log(response.data);
       window.location.href = '/admin/edit';
     }
   };
