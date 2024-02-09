@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export default function AdminPage() {
   const submitHandler = async (e) => {
-    // e.preventDefault();
+    e.preventDefault();
     const formData = Object.fromEntries(new FormData(e.target));
     const response = await axios.post('/api/auth', formData);
     if (response.status === 200) {
