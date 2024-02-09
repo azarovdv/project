@@ -50,22 +50,68 @@ module.exports = {
         {
           path: '/img/лев_1.webp',
         },
+<<<<<<< HEAD
+=======
+        {
+          path: '/photo/лев_2.jpg',
+        },
+        {
+          path: '/photo/лев_3.jpg',
+        },
+>>>>>>> dev
         {
           path: '/photo/лев_2.webp',
         },
+<<<<<<< HEAD
+=======
+        {
+          path: '/photo/слон_2.jpg',
+        },
+        {
+          path: '/photo/слон_3.jpg',
+        },
+>>>>>>> dev
         {
           path: '/photo/лев_3.webp',
         },
+<<<<<<< HEAD
+=======
+        {
+          path: '/photo/орел_2.jpg',
+        },
+        {
+          path: '/photo/орел_3.jpg',
+        },
+>>>>>>> dev
         {
           path: '/img/слон_1.webp',
         },
+<<<<<<< HEAD
+=======
+        {
+          path: '/photo/курица_2.jpg',
+        },
+        {
+          path: '/photo/курица_3.png',
+        },
+>>>>>>> dev
         {
           path: '/photo/слон_2.webp',
         },
+<<<<<<< HEAD
+=======
+        {
+          path: '/photo/красноухаяЧерепаха_2.jpg',
+        },
+        {
+          path: '/photo/красноухаяЧерепаха_3.jpg',
+        },
+>>>>>>> dev
         {
           path: '/photo/слон_3.webp',
         },
         {
+<<<<<<< HEAD
           path: '/img/орел_1.webp',
         },
         {
@@ -100,6 +146,13 @@ module.exports = {
         },
         {
           path: '/photo/геккон_3.webp',}
+=======
+          path: '/photo/геккон_2.webp',
+        },
+        {
+          path: '/photo/геккон_3.jpg',
+        },
+>>>>>>> dev
       ],
       {},
     );
@@ -148,6 +201,7 @@ module.exports = {
           animalId: '1',
           photoId: '1',
         },
+<<<<<<< HEAD
         {
           animalId: '1',
           photoId: '2',
@@ -156,10 +210,13 @@ module.exports = {
           animalId: '1',
           photoId: '3',
         },
+=======
+>>>>>>> dev
         {
-          animalId: '2',
+          animalId: '1',
           photoId: '2',
         },
+<<<<<<< HEAD
         {
           animalId: '2',
           photoId: '5',
@@ -168,9 +225,68 @@ module.exports = {
           animalId: '2',
           photoId: '6',
         },
+=======
+>>>>>>> dev
+        {
+          animalId: '1',
+          photoId: '3',
+        },
+<<<<<<< HEAD
         {
           animalId: '3',
-          photoId: '3',
+          photoId: '8',
+        },
+        {
+          animalId: '3',
+          photoId: '9',
+        },
+=======
+>>>>>>> dev
+        {
+          animalId: '2',
+          photoId: '4',
+        },
+<<<<<<< HEAD
+        {
+          animalId: '4',
+          photoId: '11',
+        },
+        {
+          animalId: '4',
+          photoId: '12',
+        },
+=======
+>>>>>>> dev
+        {
+          animalId: '2',
+          photoId: '5',
+        },
+<<<<<<< HEAD
+        {
+          animalId: '5',
+          photoId: '14',
+        },
+        {
+          animalId: '5',
+          photoId: '15',
+        },
+=======
+>>>>>>> dev
+        {
+          animalId: '2',
+          photoId: '6',
+        },
+        {
+<<<<<<< HEAD
+          animalId: '6',
+          photoId: '17',
+        },
+        {
+          animalId: '6',
+          photoId: '18',}
+=======
+          animalId: '3',
+          photoId: '7',
         },
         {
           animalId: '3',
@@ -182,7 +298,7 @@ module.exports = {
         },
         {
           animalId: '4',
-          photoId: '4',
+          photoId: '10',
         },
         {
           animalId: '4',
@@ -194,7 +310,7 @@ module.exports = {
         },
         {
           animalId: '5',
-          photoId: '5',
+          photoId: '13',
         },
         {
           animalId: '5',
@@ -206,15 +322,13 @@ module.exports = {
         },
         {
           animalId: '6',
-          photoId: '6',
+          photoId: '16',
         },
         {
           animalId: '6',
-          photoId: '17',
+          photoId: '18',
         },
-        {
-          animalId: '6',
-          photoId: '18',}
+>>>>>>> dev
       ],
       {},
     );
