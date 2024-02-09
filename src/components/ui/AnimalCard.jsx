@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function AnimalCard({ oneAnimal }) {
+  console.log('------->', { oneAnimal });
   const cardStyle = {
     width: '300px',
     minHeight: '380px',
@@ -72,8 +73,9 @@ export default function AnimalCard({ oneAnimal }) {
         <div style={buttonContainer}>
           <button style={buttonUpdate}>редактировать</button>
           <button style={buttonDelete}>удалить</button>
-        </div>{' '}
-        <img style={imgStyle} src={oneAnimal.Photos.map((el) => el.path)} alt="oneAnimal.img" />
+        </div>
+        {' '}
+        <img style={imgStyle} src={oneAnimal.Photos.map((el) => el.path)} alt="" />
         <h3 style={titleStyle}>{oneAnimal.name}</h3>
         <p style={bodyStyle}>{oneAnimal.body}</p>
       </div>

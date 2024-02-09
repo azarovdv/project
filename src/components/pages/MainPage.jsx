@@ -19,7 +19,7 @@ export default function MainPage({ greeting, photo }) {
         <br />
         {greeting[0].desc}
         <br />
-        <img style={imageStyle} src={photo[0].path} alt="" />
+        <img style={imageStyle} src={`${photo[0].path}`} alt="" />
       </h1>
     </div>
   );
