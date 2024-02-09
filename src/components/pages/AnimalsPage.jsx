@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import AnimalCard from '../ui/AnimalCard';
 import InputSearch from '../ui/InputSearch';
 
-export default function AnimalsPage({ animals }) {
+export default function AnimalsPage({ animals, animalsCat }) {
   const typesId = animals.map((animal) => animal.typeId);
   const [arrOfAnimals, setArrOfAnimals] = useState(animals);
-
   const wrapperStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
@@ -22,9 +21,13 @@ export default function AnimalsPage({ animals }) {
       />
 
       <div style={wrapperStyle}>
-        {animals.map((animal) => (
-          <AnimalCard key={animal.id} oneAnimal={animal} />
-        ))}
+        {animals ? (animals.map((animal) => (
+          <AnimalCard oneAnimal={animal} />
+        )))
+          : (animalsCat?.map((animal) => (
+            <AnimalCard oneAnimal={animal} />
+          )))}
+
       </div>
     </div>
   );

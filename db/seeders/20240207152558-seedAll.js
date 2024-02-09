@@ -53,56 +53,57 @@ module.exports = {
         {
           path: '/photo/лев_1.jpg',
         },
-        // {
-        //   path: '/photo/лев_2.jpg',
-        // },
-        // {
-        //   path: '/photo/лев_3.jpg',
-        // },
+        {
+          path: '/photo/лев_2.jpg',
+        },
+        {
+          path: '/photo/лев_3.jpg',
+        },
         {
           path: '/photo/слон_1.jpg',
         },
-        // {
-        //   path: '/photo/слон_2.jpg',
-        // },
-        // {
-        //   path: '/photo/слон_3.jpg',
-        // },
+        {
+          path: '/photo/слон_2.jpg',
+        },
+        {
+          path: '/photo/слон_3.jpg',
+        },
         {
           path: '/photo/орел_1.jpg',
         },
-        // {
-        //   path: '/photo/орел_2.jpg',
-        // },
-        // {
-        //   path: '/photo/орел_3.jpg',
-        // },
+        {
+          path: '/photo/орел_2.jpg',
+        },
+        {
+          path: '/photo/орел_3.jpg',
+        },
         {
           path: '/photo/курица_1.jpg',
         },
-        // {
-        //   path: '/photo/курица_2.jpg',
-        // },
-        // {
-        //   path: '/photo/курица_3.png',
-        // },
+        {
+          path: '/photo/курица_2.jpg',
+        },
+        {
+          path: '/photo/курица_3.png',
+        },
         {
           path: '/photo/красноухаяЧерепаха_1.png',
         },
-        // {
-        //   path: '/photo/красноухаяЧерепаха_2.jpg',
-        // },
-        // {
-        //   path: '/photo/красноухаяЧерепаха_3.jpg',
-        // },
+        {
+          path: '/photo/красноухаяЧерепаха_2.jpg',
+        },
+        {
+          path: '/photo/красноухаяЧерепаха_3.jpg',
+        },
         {
           path: '/photo/геккон_1.webp',
         },
-        // {
-        //   path: '/photo/геккон_2.webp',
-        // },
-        // {
-        //   path: '/photo/геккон_3.jpg',}
+        {
+          path: '/photo/геккон_2.webp',
+        },
+        {
+          path: '/photo/геккон_3.jpg',
+        },
       ],
       {},
     );
@@ -151,73 +152,70 @@ module.exports = {
           animalId: '1',
           photoId: '1',
         },
-        // {
-        //   animalId: '1',
-        //   photoId: '2',
-        // },
-        // {
-        //   animalId: '1',
-        //   photoId: '3',
-        // },
         {
-          animalId: '2',
+          animalId: '1',
           photoId: '2',
         },
-        // {
-        //   animalId: '2',
-        //   photoId: '5',
-        // },
-        // {
-        //   animalId: '2',
-        //   photoId: '6',
-        // },
         {
-          animalId: '3',
+          animalId: '1',
           photoId: '3',
         },
-        // {
-        //   animalId: '3',
-        //   photoId: '8',
-        // },
-        // {
-        //   animalId: '3',
-        //   photoId: '9',
-        // },
         {
-          animalId: '4',
+          animalId: '2',
           photoId: '4',
         },
-        // {
-        //   animalId: '4',
-        //   photoId: '11',
-        // },
-        // {
-        //   animalId: '4',
-        //   photoId: '12',
-        // },
         {
-          animalId: '5',
+          animalId: '2',
           photoId: '5',
         },
-        // {
-        //   animalId: '5',
-        //   photoId: '14',
-        // },
-        // {
-        //   animalId: '5',
-        //   photoId: '15',
-        // },
         {
-          animalId: '6',
+          animalId: '2',
           photoId: '6',
         },
-        // {
-        //   animalId: '6',
-        //   photoId: '17',
-        // },
-        // {
-        //   animalId: '6',
-        //   photoId: '18',}
+        {
+          animalId: '3',
+          photoId: '7',
+        },
+        {
+          animalId: '3',
+          photoId: '8',
+        },
+        {
+          animalId: '3',
+          photoId: '9',
+        },
+        {
+          animalId: '4',
+          photoId: '10',
+        },
+        {
+          animalId: '4',
+          photoId: '11',
+        },
+        {
+          animalId: '4',
+          photoId: '12',
+        },
+        {
+          animalId: '5',
+          photoId: '13',
+        },
+        {
+          animalId: '5',
+          photoId: '14',
+        },
+        {
+          animalId: '5',
+          photoId: '15',
+        },
+        {
+          animalId: '6',
+          photoId: '16',
+        },
+        {
+          animalId: '6',
+          photoId: '18',
+        },
       ],
       {},
     );
