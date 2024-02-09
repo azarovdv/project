@@ -15,7 +15,7 @@ export default rout;
 // Пример запроса к БД
 // const data = await Animal.findAll({
 //   include: [{
-//     model: Photo,
+//     model: Photo,-
 //     through: {
 //       attributes: [],
 //     },
