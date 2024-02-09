@@ -50,109 +50,57 @@ module.exports = {
         {
           path: '/img/лев_1.webp',
         },
-<<<<<<< HEAD
-=======
         {
           path: '/photo/лев_2.jpg',
         },
         {
           path: '/photo/лев_3.jpg',
         },
->>>>>>> dev
         {
           path: '/photo/лев_2.webp',
         },
-<<<<<<< HEAD
-=======
         {
           path: '/photo/слон_2.jpg',
         },
         {
           path: '/photo/слон_3.jpg',
         },
->>>>>>> dev
         {
           path: '/photo/лев_3.webp',
         },
-<<<<<<< HEAD
-=======
         {
           path: '/photo/орел_2.jpg',
         },
         {
           path: '/photo/орел_3.jpg',
         },
->>>>>>> dev
         {
           path: '/img/слон_1.webp',
         },
-<<<<<<< HEAD
-=======
         {
           path: '/photo/курица_2.jpg',
         },
         {
           path: '/photo/курица_3.png',
         },
->>>>>>> dev
         {
           path: '/photo/слон_2.webp',
         },
-<<<<<<< HEAD
-=======
         {
           path: '/photo/красноухаяЧерепаха_2.jpg',
         },
         {
           path: '/photo/красноухаяЧерепаха_3.jpg',
         },
->>>>>>> dev
         {
           path: '/photo/слон_3.webp',
         },
         {
-<<<<<<< HEAD
-          path: '/img/орел_1.webp',
-        },
-        {
-          path: '/photo/орел_2.webp',
-        },
-        {
-          path: '/photo/орел_3.webp',
-        },
-        {
-          path: '/img/курица_1.webp',
-        },
-        {
-          path: '/photo/курица_2.webp',
-        },
-        {
-          path: '/photo/курица_3.webp',
-        },
-        {
-          path: '/img/красноухаяЧерепаха_1.webp',
-        },
-        {
-          path: '/photo/красноухаяЧерепаха_2.webp',
-        },
-        {
-          path: '/photo/красноухаяЧерепаха_3.webp',
-        },
-        {
-          path: '/img/геккон_1.webp',
-        },
-        {
-          path: '/photo/геккон_2.webp',
-        },
-        {
-          path: '/photo/геккон_3.webp',}
-=======
           path: '/photo/геккон_2.webp',
         },
         {
           path: '/photo/геккон_3.jpg',
         },
->>>>>>> dev
       ],
       {},
     );
