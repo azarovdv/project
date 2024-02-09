@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import AnimalCard from '../ui/AnimalCard';
 import InputSearch from '../ui/InputSearch';
 
-export default function AnimalsPage({ animals, animalsCat }) {
+export default function AnimalsPage({ animals, animalsCat, user }) {
 
   const wrapperStyle = {
     display: 'grid',
@@ -18,7 +18,7 @@ export default function AnimalsPage({ animals, animalsCat }) {
 
       <div style={wrapperStyle}>
         {animals ? (animals.map((animal) => (
-          <AnimalCard oneAnimal={animal} />
+          <AnimalCard oneAnimal={animal} user={user}/>
         )))
           : (animalsCat?.map((animal) => (
             <AnimalCard oneAnimal={animal} />

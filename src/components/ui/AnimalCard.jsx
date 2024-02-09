@@ -1,7 +1,7 @@
 import React from 'react';
 import SliderPhoto from './SliderPhoto';
 
-export default function AnimalCard({ oneAnimal }) {
+export default function AnimalCard({ oneAnimal, user }) {
   const cardStyle = {
     width: '300px',
     minHeight: '380px',
@@ -66,8 +66,15 @@ export default function AnimalCard({ oneAnimal }) {
   return (
     <div style={cardStyle}>
       <div style={buttonContainer}>
-        <button style={buttonUpdate}>Редактировать</button>
-        <button style={buttonDelete}>Удалить</button>
+        {user
+          ? (
+            <>
+              <button style={buttonUpdate}>Редактировать</button>
+              <button style={buttonDelete}>Удалить</button>
+            </>
+          )
+          : null}
+
       </div>
       <SliderPhoto oneAnimal={oneAnimal} />
       <div style={divTextStyle}>
