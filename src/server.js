@@ -10,6 +10,7 @@ import apiAuthRouter from './routes/api/apiAuthRouter';
 
 // тут импорт роутингов
 import animalsRouter from './routes/render/animalsRouter';
+import categoriesRouter from './routes/render/categoriesRouter';
 
 import resLocals from './middlewares/resLocals';
 
@@ -33,5 +34,6 @@ app.use('/', mainPageRout);
 app.use('/admin', adminRouter);
 app.use('/api', apiAuthRouter);
 app.use('/animals', animalsRouter);
+app.use('/categories', categoriesRouter);
 
 app.listen(PORT, () => console.log(`Все ОК ${PORT}`));
