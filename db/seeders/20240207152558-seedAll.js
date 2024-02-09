@@ -101,7 +101,9 @@ module.exports = {
         {
           path: '/photo/геккон_2.webp',
         },
-        { path: '/photo/геккон_3.jpg' },
+        {
+          path: '/photo/геккон_3.jpg',
+        },
       ],
       {},
     );
@@ -214,10 +216,6 @@ module.exports = {
           animalId: '6',
           photoId: '18',
         },
-        // {
-        //   animalId: '6',
-        //   photoId: '19',
-        // },
       ],
       {},
     );
