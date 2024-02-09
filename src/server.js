@@ -13,6 +13,7 @@ import apiEditRout from './routes/api/apiEditRout';
 import animalsRouter from './routes/render/animalsRouter';
 
 import resLocals from './middlewares/resLocals';
+import searchRouter from './routes/api/apiSearchRouter';
 
 const PORT = process.env.PORT || 3000;
 const app = express();
@@ -33,6 +34,7 @@ app.use(resLocals);
 app.use('/', mainPageRout);
 app.use('/admin', adminRouter);
 app.use('/api', apiAuthRouter);
+app.use('/api', searchRouter);
 app.use('/animals', animalsRouter);
 app.use('/api/edit', apiEditRout);
 

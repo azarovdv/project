@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import AnimalCard from '../ui/AnimalCard';
 import InputSearch from '../ui/InputSearch';
 
 export default function AnimalsPage({ animals }) {
-  console.log(animals);
+  const typesId = animals.map((animal) => animal.typeId);
+  const [arrOfAnimals, setArrOfAnimals] = useState(animals);
 
   const wrapperStyle = {
     display: 'grid',
@@ -14,11 +15,15 @@ export default function AnimalsPage({ animals }) {
 
   return (
     <div>
-      <InputSearch />
+      <InputSearch
+        arrOfAnimals={arrOfAnimals}
+        setArrOfAnimals={setArrOfAnimals}
+        typeId={typesId}
+      />
 
       <div style={wrapperStyle}>
         {animals.map((animal) => (
-          <AnimalCard oneAnimal={animal} />
+          <AnimalCard key={animal.id} oneAnimal={animal} />
         ))}
       </div>
     </div>
