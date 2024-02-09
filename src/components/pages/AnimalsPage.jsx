@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import AnimalCard from '../ui/AnimalCard';
 import InputSearch from '../ui/InputSearch';
 
-export default function AnimalsPage({ animals }) {
-  console.log(animals);
+export default function AnimalsPage({ animals, animalsCat }) {
 
   const wrapperStyle = {
     display: 'grid',
@@ -12,14 +11,18 @@ export default function AnimalsPage({ animals }) {
     justifyContent: 'center',
   };
 
+
   return (
     <div>
-      <InputSearch />
+      {/* <InputSearch /> */}
 
       <div style={wrapperStyle}>
-        {animals.map((animal) => (
+        {animals ? (animals.map((animal) => (
           <AnimalCard oneAnimal={animal} />
-        ))}
+        )))
+          : (animalsCat?.map((animal) => (
+            <AnimalCard oneAnimal={animal} />
+          )))}
       </div>
     </div>
   );
