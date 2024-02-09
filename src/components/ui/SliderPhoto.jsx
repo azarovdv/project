@@ -14,12 +14,11 @@ function SliderPhoto({ oneAnimal }) {
     // margin: '10px 0',
     borderTopLeftRadius: '12px',
     borderTopRightRadius: '12px',
-
   };
 
   return (
     <div style={styleSliderContainer}>
-      <Carousel>
+      <Carousel interval={null}>
         {oneAnimal.Photos.map((photo, index) => (
           <Carousel.Item key={index}>
             <img style={imgStyle} src={photo.path} alt={`Animal ${index + 1}`} />
