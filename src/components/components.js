@@ -4,6 +4,7 @@ import EditPage from './pages/EditPage';
 import MainPage from './pages/MainPage';
 import AnimalsPage from './pages/AnimalsPage';
 import PricePage from './pages/PricePage';
+import CategoriesPage from './pages/CategoriesPage';
 
 const components = {
   AdminPage,
@@ -11,6 +12,7 @@ const components = {
   MainPage,
   AnimalsPage,
   PricePage,
+  CategoriesPage,
 };
 
 export default components;

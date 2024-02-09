@@ -24,7 +24,7 @@ export default function Navbar() {
             </ul>
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/animals">Animals</a>
+                <a className="nav-link" href="/categories">Animals</a>
               </li>
             </ul>
             <ul className="navbar-nav ml-auto">
