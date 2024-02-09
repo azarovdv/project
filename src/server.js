@@ -7,6 +7,7 @@ import jsxRender from './utils/jsxRender';
 import mainPageRout from './routes/render/mainPageRout';
 import adminRouter from './routes/render/adminRouter';
 import apiAuthRouter from './routes/api/apiAuthRouter';
+import apiEditRout from './routes/api/apiEditRout';
 
 // тут импорт роутингов
 import animalsRouter from './routes/render/animalsRouter';
@@ -35,5 +36,6 @@ app.use('/admin', adminRouter);
 app.use('/api', apiAuthRouter);
 app.use('/animals', animalsRouter);
 app.use('/categories', categoriesRouter);
+app.use('/api/edit', apiEditRout);
 
 app.listen(PORT, () => console.log(`Все ОК ${PORT}`));

@@ -7,8 +7,11 @@ import React from 'react';
 // }
 export default function InputSearch() {
   const styleInput = {
-    margin: '20px 0',
-    width: '300px',
+    margin: '10px auto',
+    width: '400px',
+    height: '40px',
+    backgroundColor: 'rgb(43 128 30 / 70%)',
+    color: 'white',
   };
   return (
     <input
@@ -19,7 +22,7 @@ export default function InputSearch() {
       value={null}
       onChange={null}
       name="search"
-      placeholder="найти зверушку"
+      placeholder="найти зверушку в нашем зоопарке"
     />
   );
 }
